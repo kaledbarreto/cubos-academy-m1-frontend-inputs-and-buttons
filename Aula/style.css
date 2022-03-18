@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  font-family: sans-serif;
+  font-size: 120%;
+  color: #fff;
+  background-color: #0d1117;  
+}
+
+.container {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 5px;
+
+  margin-top: 16px;
+  padding: 20px;
+}
+
+body h1 {
+  font-size: 24px;
+  font-weight: 300px;
+}
+
+.input-container {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 5px 0px 15px;
+}
+
+.password {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.password a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #58a6ff;
+}
+
+.input-container label {
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+
+.input-container input {
+  all: unset;
+  box-sizing: border-box;
+  
+  padding: 12px 15px;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  
+  font-size: 14px;
+}
+
+/* .input-container input::placeholder { :: -> Selecionando um pseudo elemento "placeholder"
+  color: rgb(209, 209, 209);
+} */
+
+.input-container input:focus {
+  border-color: #388bfd;
+  box-shadow: 0px 1px 6px 0px #388bfd
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+
+  width: 300px;
+
+  padding: 12px 0;
+  border-radius: 8px;
+
+  background-color: #238636;
+  border-color: #2ea043;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2ea043;
+  border-color: #3fb950;
+}

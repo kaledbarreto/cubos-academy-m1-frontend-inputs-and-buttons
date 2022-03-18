@@ -1,0 +1,168 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #F8EFEF;
+  font-family: 'Mulish', sans-serif;
+}
+
+.container{
+  width: 610px;
+  height: 708px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 64px 90px 56px;
+}
+
+.container h1{
+  font-family: 'Rokkitt', serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  color: #161843;
+  margin-bottom: 15px;
+}
+
+.container span {
+  width: 350px;
+  font-size: 16px;
+  line-height: 23px;
+  color: #161843;
+  margin-bottom: 52px;
+}
+
+.container input {
+  all: unset;
+  box-sizing: border-box;
+
+  border: 1px solid #CAD6E4;
+  border-radius: 5px;
+
+  font-size: 18px;
+  line-height: 23px;
+  color: #717A91;
+
+  padding: 25px;
+  margin-bottom: 16px;
+}
+
+.mid-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+.mid-btn a{
+  text-decoration:  none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0C6787;
+}
+
+.mid-btn button{
+  all: unset;
+  box-sizing: border-box;
+
+  width: 157px;
+  height: 73px;
+
+  background: hsl(195, 75%, 27%);
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+
+  cursor: pointer;
+}
+
+.mid-btn button:hover{
+  background: #046586;
+}
+
+.mid-btn button img {
+  margin-left: 14px;
+}
+
+.line-span{
+  padding: 35px 0px 30px;
+  border-top: 1px solid #CAD6E4;
+
+  display: flex;
+  justify-content: center;
+}
+
+.line-span span{
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #838A9E;
+}
+
+.bot-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bot-btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 207px;
+  height: 55px;
+  
+  background: #FFFFFF;
+  border: 1px solid #CAD6E4;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  text-decoration:  none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+
+  margin-bottom: 60px;
+}
+
+.bot-btn a:hover{
+  border: 1px solid #26394F;
+}
+
+.bot-btn a img{
+  margin-right: 11px;
+}
+
+.bottom-span {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.bottom-span a{
+  color: #046586;
+}

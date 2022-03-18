@@ -2,11 +2,11 @@
 
 # Exercício de casa 🏠
 
-## Lista de pessoas
+## Cadastro
 
 Reproduza o layout presente no "Exercício 4" do arquivo figma (.fig) encontrado na raiz do projeto.
 
-![exercicio](https://i.imgur.com/X20izOD.png)
+![exercicio](https://i.imgur.com/zyNLkkZ.png)
 
 ## Dicas
 

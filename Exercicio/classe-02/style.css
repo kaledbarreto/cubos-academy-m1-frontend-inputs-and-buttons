@@ -1,152 +1,142 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
+body{
+  font-family: 'Mulish', sans-serif;
+  color: #000000;
+
+  background-color: #E5E5E5;
+  background: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #E5E5E5;
-  font-family: 'Montserrat', sans-serif;
+
+  height: 100vh;
 }
 
-.card-01-container {
-  max-width: 579px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
-  border-radius: 15px;
-  margin-right: 29px;
+.container {
+  width: 739px;
+  height: 442px;
+
   background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.closeX{
+.close-btn {
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
-  margin-right: 20px;
 }
 
-.text-card-01 {
+.content {
+  margin: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 11px 88px 55px 88px;
 }
 
-.text-card-01 h1{
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header h1{
   font-weight: bold;
-  font-size: 18px;
-  line-height: 27px;
-  color: #212D59;
+  font-size: 22px;
+  line-height: 28px;
 }
 
-.expressions{
+header span {
+  margin-top: 20px;
+  width: 557px; 
+  font-size: 18px;
+  line-height: 25px;
+}
+
+main{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
-.item-expression {
-  display: flex;
-  flex-direction: column;
-  margin: 72px 33.5px 85px 33.5px;
-}
+main input {
+  all: unset;
+  box-sizing: border-box;
 
-.item-expression span{
-  margin-top: 15px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #212D59;
-  opacity: 0.5;
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-}
-
-.text-card-01 .btn a{
-  text-decoration: none;
-  width: 208px;
-  height: 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #2F2D2C;
+  width: 510px;
+  height: 49px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
   border-radius: 5px;
-  color: #fff;
+  padding: 15px 20px;
 }
 
-.card-02-container{
-  max-width: 402px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
-  border-radius: 15px;
-  margin-left: 29px;
-  background-color: #fff;
-}
+main button {
+  all: unset;
+  box-sizing: border-box;
 
-.feedback-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 0px 63px;
-}
+  width: 119px;
+  height: 49px;
 
-.feedback-container h1{
-  font-weight: bold;
+  background: #9677EF;
+  border-radius: 5px;
+
   font-size: 18px;
-  line-height: 27px;
-  color: #212D59;
-  margin-top: 15px;
-  margin-bottom: 40px;
-}
-
-.feedback-container p{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #212D59;
-  margin-bottom: 40px;
-}
-
-.feedback-footer{
-  display: flex;
-  align-items: center;
-  padding: 0px 40px 35px 50px;
-}
-
-.clean-btn{
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #212D59;
-  opacity: 0.5;
-}
-
-.feedback-footer .btn{
-  width: 134px;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #2F2D2C;
-  border-radius: 5px;
-  margin-left: 34px;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  line-height: 25px;
   color: #FFFFFF;
+  text-align: center;
+
+  cursor: pointer;
 }
+
+main button:hover {
+  background: rgba(150, 119, 239, 0.8);
+  box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
+  border-radius: 5px;
+}
+
+.footer {
+  box-sizing: border-box;
+  width: 631px;
+  height: 135px;
+  background: #F8F9FD;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px 144px 30px 20px;
+}
+
+.footer h1{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #494949;
+
+  margin-bottom: 15px;
+}
+
+.footer span{
+  font-size: 14px;
+  line-height: 21px;
+  color: #494949;
+}
+
+.footer span a{
+  color: #9677EF;
+}
+

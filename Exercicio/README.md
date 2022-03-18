@@ -1,16 +1,14 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Prática Flexbox
+# Inputs e botões
 
 ## Exercícios de classe 🏫
-
-1. 3 Cards
-2. Feedback
-3. Lista de coleções
+1. Cobrança
+2. Compartilhar
 
 ## Exercícios de casa 🏠
-4. Lista de pessoas
-5. Card de usuário
+3. Login
+4. Cadastro
 
 ---
 
