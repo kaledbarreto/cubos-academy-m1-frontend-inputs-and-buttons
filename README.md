@@ -6,4 +6,4 @@
 
 - Inputs e botões
 
-###### tags: `módulo 1` `front-end` `HTML`
+###### tags: `módulo 1` `front-end` `HTML` `CSS`
